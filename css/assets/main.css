@@ -36,13 +36,20 @@ img {
   justify-content: space-between;
 
   .items,
-  .name,
   .payment-details {
     background-color: #ede1d5;
     border: 2px solid #89592d;
     border-radius: 10px;
     padding: 20px;
   }
+}
+
+.item {
+  display: flex;
+}
+
+.line-item {
+  font-size: small;
 }
 
 .btn {
