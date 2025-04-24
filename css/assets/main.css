@@ -1,5 +1,9 @@
+body {
+  background-color: #f0f0f0;
+}
+
 header {
-  background-color: brown;
+  background-color: #412415;
   color: yellow;
   font-size: 24px;
   font-weight: bold;
@@ -23,7 +27,13 @@ header {
   gap: 10px;
 }
 
-/* .item {
+.container {
+  background-color: #ede1d5;
+}
+
+.btn {
+  background-color: #deb992;
+}/* .item {
 
 }
 
