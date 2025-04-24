@@ -50,11 +50,7 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
-.item {
-  display: flex;
-}
-
-.line-item {
+.item-info {
   font-size: small;
 }
 
