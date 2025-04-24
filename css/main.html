@@ -8,24 +8,74 @@
 
   <body>
     <header>
-      <img src="assets/logo.png" alt="logo" />
+      <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" alt="logo" />
       Coffee Masters
     </header>
     <div class="page-container">
       <div class="items">
-        <div class="item"> item</div>
+        ITEMS
+        <div class="item">
+          <div class="line-item">
+            <div class="quantity">1x</div>
+            <div class="name">Cappuccino</div>
+            <div class="price">$3.35</div>
+          </div>
+          <div class="item-info">
+            <div class="info">Lite foam</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="line-item">
+            <div class="quantity">1x</div>
+            <div class="name">Capuccino</div>
+            <div class="price">$3.85</div>
+          </div>
+          <div class="item-info">
+            <div class="info">Lite milk</div>
+            <div class="info">Double espresso</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="line-item">
+            <div class="quantity">1x</div>
+            <div class="name">Croissant</div>
+            <div class="price">$2.45</div>
+          </div>
+          <div class="item-info">
+            <div class="info">Butter</div>
+          </div>
+        </div>
       </div>
       <div class="payment">
         <div class="name">
-          blah
+          NAME
+          <div class="name-input">
+            Name for order
+            <input type="text" placeholder="Name" />
+          </div>
         </div>
         <div class="payment-details">
-          blah
+          PAYMENT
+          <div class="payment-details-item">
+            Card number
+            <input type="text" placeholder="Card number" />
+          </div>
+          <div class="payment-details-item">
+            CCV Number
+            <input type="text" placeholder="CCV Number" />
+          </div>
         </div>
-        <div class="total">
-          blah
+        <div class="footer">
+          <div class="total">
+            <div class="total-item">Subtotal:</div>
+            <div class="total-item">Tax:</div>
+            <div class="total-item total">Total:</div>
+            <div class="dollar-amount">$9.65</div>
+            <div class="dollar-amount">$0.82</div>
+            <div class="dollar-amount total">$10.47</div>
+          </div>
+          <button class="btn">Place order</button>
         </div>
-        <button>Place order</button>
       </div>
     </div>
   </body>
