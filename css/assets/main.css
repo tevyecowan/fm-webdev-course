@@ -5,17 +5,25 @@ header {
   font-weight: bold;
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-/* .page-container {
-  
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
 }
 
 .items {
-
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.item {
+/* .item {
 
 }
 
