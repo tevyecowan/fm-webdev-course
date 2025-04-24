@@ -12,6 +12,14 @@ header {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height:30px;
+  
+}
+
+img {
+  height: inherit;
 }
 
 .items {
@@ -21,6 +29,7 @@ header {
 }
 
 .container {
+  padding-top: 50px;
   background-color: #ede1d5;
   display: flex;
   flex-direction: row;
