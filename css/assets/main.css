@@ -29,32 +29,42 @@ img {
     background-color: #ede1d5;
 }
 
-/* .name {
-  background-color: #ede1d5;
-}
-
-.payment-details {
-  background-color: #ede1d5;
-} */
-
 .container {
-  padding-top: 50px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: space-between;
 
   .items, .name, .payment-details {
     background-color: #ede1d5;
+    border: 2px solid #89592d;
+    border-radius: 10px;
+    padding: 20px;
   }
 }
 
 .btn {
   background-color: #deb992;
-}/* .item {
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .total {
+    gap:20px;
+  }
+}
+
+/* .item {
 
 }
+
 
 .line-item {
 
 } */
+
