@@ -14,10 +14,6 @@ header {
   gap: 10px;
 }
 
-.page-container {
-
-}
-
 .items {
   display: flex;
   flex-direction: column;
